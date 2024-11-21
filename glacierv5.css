@@ -1,0 +1,68 @@
+#english {
+  background: #424242;
+  padding: 0px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+
+#title {
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px;
+  border-radius: 12px;
+}
+
+#navbutton {
+  height: 2%;
+}
+
+.gameiframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+  border: none;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.gameimg {
+  width: 100%;
+  height: 110%;
+  border-radius: 12px;
+  border: none;
+  visibility: visible;
+}
+
+.gamebutton {
+  padding: 0;
+  width: 19.5%;
+  border-radius: 12px;
+  border: none;
+  visibility: hidden;
+}
+
+.gamediv {
+  display: inline;
+}
+
+#back {
+  float: left;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+}

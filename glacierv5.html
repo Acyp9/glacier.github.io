@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--put all css and js into files. link them to this document-->
+<!--always use id instead of class now that we know javascript-->
+<!--possible addition of full language support, for now spanish and english only-->
+
+<!--pre document declarations-->
+  <title>GlacierV5</title>
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="glacierv5.css">
+  <script src="glacierv5.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--pre document declarations-->
+
+<!--english page-->
+  <body lang="en, es" id="english">
+
+    <!--header-->
+      <header id="navbar">
+        <h1 id="title">Glacier V5</h1>
+        <button type="button" id="navbutton" onlick="show2048()">
+          Apps
+        </button>
+        <button type="button" id="navbutton" onlick="myFunction()">
+          Games
+        </button>
+        <button type="button" id="navbutton" onlick="refresh()">
+          Home
+        </button>
+        <button type="button" id="navbutton" onlick="myFunction()">
+          More sites
+        </button>
+      </header>
+    <!--header-->
+      
+    <!--games-->
+        <div id="gamediv">
+          <button type="button" onclick="show2048()" class="gamebutton">
+            <img src="resources/gameimgs/2048.jpg" class="gameimg">
+          </button>
+            <iframe class ="gameiframe" id="2048" loading="lazy" src="https://lite.3kh0.net/projects/2048/"></iframe>
+            <button type="button" onclick="showProxy()" class="gamebutton">
+            <img src="resources/gameimgs/UV.png" class="gameimg">
+          </button>
+            <iframe class ="gameiframe" id="proxy" loading="lazy" src="https://edgedcircles.com/"></iframe>
+            <button type="button" onclick="showBbs()" class="gamebutton">
+            <img src="resources/gameimgs/BBS.jpeg" class="gameimg">
+          </button>
+            <iframe class ="gameiframe" id="Bbs" loading="lazy" src="https://lite.3kh0.net/projects/basketball-stars/"></iframe>
+        </div>
+    <!--games-->
+
+<!--english page-->
+  </body>
